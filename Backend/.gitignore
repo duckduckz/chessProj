@@ -1,0 +1,13 @@
+## API
+/Xiangqi.Api/bin/
+/Xiangqi.Api/obj/
+/Xiangqi.Api/Properties
+/Xiangqi.Api/*.json
+
+## DOMAIN
+/Xiangqi.Domain/bin/
+/Xiangqi.Domain/obj
+
+## infrastructure
+/Xiangqi.infrastructure/bin
+/Xiangqi.infrastructure/obj
