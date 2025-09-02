@@ -67,11 +67,14 @@ The frontend (Unity 3D) consumes this API + SignalR hub.
 
 ## 📂 Project Structure
 
+```
 Backend/
 ├── Xiangqi.Api/ # Minimal API endpoints + SignalR Hub
 ├── Xiangqi.Domain/ # Entities, game logic, move validation
 ├── Xiangqi.Infrastructure/ # Repositories, services, models
 └── README.md
+ChineseChess/
+```
 
 ## ⚙️ Getting Started
 
