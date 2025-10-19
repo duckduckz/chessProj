@@ -1,0 +1,22 @@
+{
+  "brand.cn": "象棋天地",
+  "brand.en": "Xiangqi World",
+
+  "nav.home": "Home",
+  "nav.lobby": "Lobby",
+  "nav.rank": "Ranking",
+  "nav.chat": "World Chat",
+  "nav.login": "Login",
+  "nav.signup": "Sign Up",
+
+  "home.welcomeTop": "Welcome to",
+  "home.welcomeBottom": "Xiangqi World",
+  "home.subtitle": "Refine the art of Xiangqi, enjoy the wisdom of play",
+  "home.quickJoin": "Quick Join",
+  "home.vsAi": "Play vs AI",
+  "home.createRoom": "Create Room",
+  "home.myWorld": "My World",
+
+  "lang.en": "EN",
+  "lang.cn": "中文"
+}

@@ -1,0 +1,22 @@
+{
+  "brand.cn": "象棋天地",
+  "brand.en": "Xiangqi World",
+
+  "nav.home": "首页",
+  "nav.lobby": "大厅",
+  "nav.rank": "排名",
+  "nav.chat": "世界聊天",
+  "nav.login": "登录",
+  "nav.signup": "注册",
+
+  "home.welcomeTop": "欢迎来到",
+  "home.welcomeBottom": "象棋天地",
+  "home.subtitle": "切磋棋艺，智游象棋天地",
+  "home.quickJoin": "随即加入",
+  "home.vsAi": "人机对战",
+  "home.createRoom": "创建房间",
+  "home.myWorld": "我的世界",
+
+  "lang.en": "EN",
+  "lang.cn": "中文"
+}

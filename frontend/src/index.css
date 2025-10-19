@@ -1,0 +1,109 @@
+:root{
+  --paper:#faf5e9;
+  --ink:#1e1b18;
+  --accent:#c0392b;
+  --brand-red:#c74730;
+}
+
+html, body, #root{
+  height:100%
+}
+
+body{
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing:antialiased;
+  position: relative;
+  overflow-x: hidden
+}
+
+body::before{
+  content:"";
+  position: fixed; inset:0;
+
+  background-image: url('/images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: saturate(0.9);
+  z-index:-2
+}
+
+body::after{
+  content:"";
+  position: fixed; inset:0;
+  background: radial-gradient(transparent 30%, rgba(0,0,0,0.05)),
+              linear-gradient(radial-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)));
+  opacity:0.85;
+  z-index:-1
+}
+
+.navbar{
+  background:transparent;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar-nav .nav-link {
+
+  padding: 0.25rem 0.5rem !important; 
+  font-size: 22px; 
+  font-weight: 500; 
+  color: #2a2a2a !important; 
+  gap: 0.5rem;
+
+}
+
+.nav-link.active {
+  color: var(--brand-red) !important;
+}
+
+
+.btn-outline-danger{
+  border-width:2px;
+  border-radius:12px;
+  padding:.9rem 1.25rem;
+}
+
+.display-title{
+  color:var(--accent);
+  font-weight:800;
+}
+
+.brand-logo{
+  height:36px;
+  width:auto;
+}
+
+.brand-mark {
+  height: 56px;
+  width: auto;
+}
+
+.brand-text {
+  line-height: 1.1;
+  margin-top: -2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-cn {
+  color: var(--brand-red);
+  font-weight: 700;      
+  font-size: 18px;        
+  letter-spacing: 0.5px;  
+}
+
+.brand-en {
+  color: var(--brand-red);
+  font-weight: 700;
+  font-size: 14px;       
+  letter-spacing: 0.4px;
+  margin-top: 2px;
+}
+
+.navbar .navbar-brand { 
+  display: inline-flex; 
+  align-items: center; 
+}

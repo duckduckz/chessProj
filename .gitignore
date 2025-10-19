@@ -1,1 +1,38 @@
 /ChineseChess/
+.fake
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python/Java/C# etc. placeholders for your Backend later
+# (uncomment if/when those appear)
+# __pycache__/
+# .venv/
+# venv/
+# bin/
+# obj/
+# target/
+# .pytest_cache/
+# .gradle/
+# build/
+# *.user
+# *.suo
+
+# Node (if backend uses Node)
+node_modules/
+dist/
+*.log
+
+# Env & secrets at root
+.env
+.env.*.local
+.env.local
+
+# Coverage / cache
+coverage/
+*.tsbuildinfo
