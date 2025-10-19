@@ -80,7 +80,7 @@ frontend/
 Example mockups:
 
 > Lobby – Unified Room List
-> ![Lobby Screenshot](../docs/images/lobby_mock.png)
+> ![Lobby Screenshot](./docs/images/lobby-cn.png)
 
 > Waiting Room – Opponent Awaiting
 > ![Waiting Screenshot](../docs/images/waiting_mock.png)
@@ -184,7 +184,7 @@ server: {
 **Frontend Developer:** *Yaya Zhang*
 **University:** Howest University of Applied Sciences – Bruges
 **Program:** Creative Technology & Artificial Intelligence (CTAI)
-**Contact:** [GitHub](https://github.com/) · [LinkedIn](https://linkedin.com/)
+**Contact:** [GitHub](https://github.com/duckduckz) · [LinkedIn](https://www.linkedin.com/in/yayazz/)
 
 ---
 
